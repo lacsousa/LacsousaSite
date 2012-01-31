@@ -1,0 +1,480 @@
+img {
+  border: 0px;
+}
+
+font {
+   font-family : Helvetica, sans-serif, Arial; 
+   font-weight : normal; 
+
+}
+
+body { 
+   font-family : Helvetica, sans-serif, Arial; 
+   font-weight : normal; 
+   color : #000000; 
+   background: white;
+}
+
+b {
+  font-weight: bold;
+}
+
+a.offsite:link 	{
+   background: none;
+   font-style: italic;
+   font-family : Helvetica, sans-serif, Arial; 
+   }
+
+a.offsite:visited {
+   background: none;
+   color : #444488; 
+   font-style: italic;
+   font-family : Helvetica, sans-serif, Arial; 
+   }
+
+a:link 	{
+   background: none;
+   font-family : Helvetica, sans-serif, Arial; 
+   }
+
+a:visited {
+   color : #444488; 
+   background: none;
+   font-family : Helvetica, sans-serif, Arial; 
+}
+
+a:active  {
+   background: none;
+   font-family : Helvetica, sans-serif, Arial; 
+}
+
+a:hover  {
+   color : #6699CC; 
+   background: none;
+   font-family : Helvetica, sans-serif, Arial; 
+}	
+
+
+.terminalinstructions {
+	border: 2px solid #000000;
+	padding: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size:12px;
+}
+
+
+.configurationvalues {
+	margin-left: 50px;
+	padding: 5px;
+	margin-right: 50px;
+	font-size:12px;
+}
+
+
+h2.biglink {
+   font-family : Helvetica, sans-serif, Arial; 
+   font-size: 24px;
+   font-weight: bold;
+}
+
+.headerlinks {
+   background: none;
+   font-family : Helvetica, sans-serif, Arial; 
+   font-size: 16px;
+
+}
+
+div.title {
+   font-family : Helvetica, sans-serif, Arial; 
+   font-size: 24px;
+   font-weight: bold;
+   color: #C12820;
+}
+
+div.subtitle {
+   font-family : Helvetica, sans-serif, Arial; 
+   font-size: 24px;
+   font-weight: bold;
+   color: #C12820;
+}
+
+div.subhead {
+   font-family : Helvetica, sans-serif, Arial; 
+   font-size: 24px;
+   font-weight: bold;
+   padding-bottom: 3px;
+}
+
+div.para {
+   font-family : Helvetica, sans-serif, Arial; 
+   padding-bottom: 20px;
+}
+
+font.divider {
+   font-family : Helvetica, sans-serif, Arial; 
+   font-weight: bold;
+}
+
+pre, tt, code { 
+   font-family : monospace;
+   font-size: 14px;
+   background: #FFFFFF; 
+   font-weight : normal; 
+}
+
+td.divider {
+   background-color: #C12820;
+}
+
+div.resume-heading { 
+   font-family : Helvetica, sans-serif, Arial; 
+   font-size: 24px;
+   font-weight : bold; 
+   padding-bottom: 2px;
+   padding-top: 2px;
+}
+
+div.resume-subheading { 
+   font-family : Helvetica, sans-serif, Arial; 
+   font-size: 24px;
+   font-weight : bold; 
+   padding-bottom: 2px;
+   padding-top: 2px;
+}
+
+div.dttext {
+   font-size: 18px;
+   font-weight: bold;
+}
+
+div.dtsubtext {
+   font-size: 10px;
+   padding-left: 15px;
+}
+
+div.ddaddress {
+   font-size: 14px;
+   padding-left: 15px;
+}
+
+div.ddtext {
+   font-size: 14px;
+   padding-bottom: 15px;
+   padding-left: 15px;
+}
+
+div.warning {
+   font-size: 18px;
+   font-weight: bold;
+   color: red;
+   padding-top: 15px;
+   padding-bottom: 10px;
+   padding-left: 25px;
+   padding-right: 25px;
+   border: thick solid red 
+}
+
+div.imgbox {
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+
+
+
+td.odd {
+    background-color: #6090b0;
+}
+
+td.even {
+    background-color: #edc0c0;
+}
+
+
+/* =================================== */
+
+/* Body of the webpages. */
+
+h2 {
+  font-family : Helvetica, sans-serif, Arial; 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family : Helvetica, sans-serif, Arial; 
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+blockquote {
+  font-size: 14px;
+}
+
+p.big {
+  font-size: 20px;
+  text-align: center;
+}
+
+dt {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: -12px;
+}
+
+dd {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+div.separator {
+  background-color: #C12820;
+  margin: 0;
+  width: 570px;
+  height: 4px;
+}
+
+#contentrow ul {
+  font-family : Helvetica, sans-serif, Arial; 
+  font-size: 14px;
+}
+
+/* ======================================================= */
+
+#container {
+  display: table;
+  width: 600px;
+  text-align: center;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+#titlerow #navrow #contentrow #footerrow  {
+  display: table-row;
+}
+
+#contentrow {
+  text-align: left;
+  padding-left: 5px;
+}
+
+#left, #middle {
+  display: table-cell;
+  padding-left: 5px;
+  text-align: left;
+}
+
+#right, #middle {
+  display: table-cell;
+  text-align: right;
+  width: 100%;
+  padding-right: 10px;
+}
+
+#title {
+  font-family : Helvetica, sans-serif, Arial; 
+  font-size: 24px;
+  font-weight: bold;
+  color: #C12820;
+  text-align: left;
+}
+
+#subtitle {
+  font-family : Helvetica, sans-serif, Arial; 
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
+  color: #C12820;
+}
+
+/* ========================================================== */
+
+/* For the horizontal navbar. */
+
+div#navcontainer {
+  background-color: #FFFFFF;
+  color: #C12820;
+  border-top: solid 4px;
+  border-bottom: solid 4px;
+  padding: 5px 0 5px 0;
+}
+
+div#navcontainer ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #C12820;
+  text-align: center;
+  margin: 0;
+  padding: .2em 0;
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+}
+
+div#navcontainer ul li {
+  display: inline;
+}
+
+div#navcontainer ul li a {
+  padding: 5px 10px 5px 10px;
+  color: blue;
+  text-decoration: none;
+  border-right: 1px solid #C12820;
+}
+
+span.disabled {
+  padding: 5px 10px 5px 10px;
+  color: #C12820;
+  text-decoration: none;
+  border-right: 1px solid #C12820;
+}
+
+div#navcontainer ul li a:hover {
+  color: #C12820;
+}
+
+#first a { 
+  border-left: 1px solid #C12820;
+}
+
+/* ========================================================== */
+
+#fleft {
+  display: table-cell;
+  text-align: left;
+  width: 90px;
+}
+
+#fmiddle {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 320px;
+}
+
+#footerrow {
+  border-top: 4px solid #C12820;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+#fright {
+  display: table-cell;
+  text-align: right;
+  width: 190px;
+}
+
+
+/* For the Plane Truth article */
+
+span.clock1 {
+  font-family : Helvetica, sans-serif, Arial; 
+  font-size: 9px;
+  color: red;
+}
+
+span.clock2 {
+  font-family : Helvetica, sans-serif, Arial; 
+  font-size: 13px;
+  color: red;
+}
+
+span.clock3 {
+  font-family : Helvetica, sans-serif, Arial; 
+  font-size: 100px;
+  color: red;
+}
+
+span.clock4 {
+  font-family : Helvetica, sans-serif, Arial; 
+  font-size: 100px;
+  color: blue;
+}
+
+/* For the Griffin article */
+
+div.myemail {
+  font-family: Helvetica, sans-serif, Arial; 
+  background-color: #edc0c0;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 550px;
+}
+
+div.theiremail {
+  font-family: Helvetica, sans-serif, Arial; 
+  background-color: #90c0e0;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 550px;
+}
+
+div.myemail p {
+  font-size: 14px;
+}
+
+div.theiremail p {
+  font-size: 14px;
+}
+
+div.emailheaders {
+  font-family: Courier, monospace;
+  white-space: pre;
+  font-size:14px;
+  background-color: white;
+  padding: 10px;
+  width: 530px;
+}
+
+div.signature {
+  padding-left: 40px;
+}
+
+div.emailquote {
+  padding-left: 40px;
+}
+
+div.emailquote p {
+  font-style: italic;
+  padding-right: 40px;
+}
+
+/* For the pictures page. */
+
+div.picblock {
+  font-family: Helvetica, sans-serif, Arial; 
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 550px;
+}
+
+/* Restaurants page. */
+
+span.cuisine {
+  font-family : Helvetica, sans-serif, Arial; 
+  font-size: 12px;
+  font-style: normal;
+
+}
+
+/* Software page */
+
+div.quote {
+  font-family: Helvetica, sans-serif, Arial; 
+  font-style: bold;
+  font-size: 33px;
+  text-align: center;
+  padding: 0 80px 0 80px;
+  width: 410px;
+}
+
